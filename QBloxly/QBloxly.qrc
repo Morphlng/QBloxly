@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/webfiles/blockly.min.js</file>
+        <file>assets/webfiles/custom_category.js</file>
+        <file>assets/webfiles/index.html</file>
+        <file>assets/webfiles/index.js</file>
+        <file>assets/webfiles/logo_only.svg</file>
+        <file>assets/webfiles/qwebchannel.js</file>
+        <file>assets/webfiles/toolbox_label.js</file>
+        <file>assets/webfiles/toolbox_style.css</file>
+        <file>assets/webfiles/media/1x1.gif</file>
+        <file>assets/webfiles/media/click.mp3</file>
+        <file>assets/webfiles/media/click.ogg</file>
+        <file>assets/webfiles/media/click.wav</file>
+        <file>assets/webfiles/media/delete.mp3</file>
+        <file>assets/webfiles/media/delete.ogg</file>
+        <file>assets/webfiles/media/delete.wav</file>
+        <file>assets/webfiles/media/disconnect.mp3</file>
+        <file>assets/webfiles/media/disconnect.ogg</file>
+        <file>assets/webfiles/media/disconnect.wav</file>
+        <file>assets/webfiles/media/dropdown-arrow.svg</file>
+        <file>assets/webfiles/media/handclosed.cur</file>
+        <file>assets/webfiles/media/handdelete.cur</file>
+        <file>assets/webfiles/media/handopen.cur</file>
+        <file>assets/webfiles/media/pilcrow.png</file>
+        <file>assets/webfiles/media/quote0.png</file>
+        <file>assets/webfiles/media/quote1.png</file>
+        <file>assets/webfiles/media/sprites.png</file>
+        <file>assets/webfiles/media/sprites.svg</file>
+        <file>assets/webfiles/lox_compressed.js</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{ca1be1f8-8666-4086-8663-f2f4dd9399f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lexer">
+      <UniqueIdentifier>{73bd5a8b-c1f9-44fc-af7f-0e9970be5ebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Parser">
+      <UniqueIdentifier>{395d73ea-36c8-46ef-a489-f59c874c52f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interpreter">
+      <UniqueIdentifier>{fa0f8d44-dd96-417e-9659-99baabe8992b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interpreter\loxlib">
+      <UniqueIdentifier>{988c412c-22fb-4768-9115-c46b4c0f120f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resolver">
+      <UniqueIdentifier>{18533fbd-eb84-43d2-98df-23e0eaaeabb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{ce1b28c7-f884-4c90-9a20-3e6078d90509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lexer">
+      <UniqueIdentifier>{272be4e0-ff0d-4d53-a467-c38fa3b871c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Parser">
+      <UniqueIdentifier>{f090378d-37d7-499a-89ca-acdbbf01bbbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interpreter">
+      <UniqueIdentifier>{1d38373f-faed-4f48-b000-fa1cdc21cd93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interpreter\loxlib">
+      <UniqueIdentifier>{7ce16f77-4b3b-4756-a60a-9483f2bf9c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resolver">
+      <UniqueIdentifier>{4bf0ac04-72e0-4b4c-b515-152b85875fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\xmlTranspiler">
+      <UniqueIdentifier>{4f47f6e4-8b61-4f9b-ae15-3e7b23c21a88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\xmlTranspiler">
+      <UniqueIdentifier>{7548bb08-e122-4ee4-ac45-6c35530ab76d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Common\Error.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common\Position.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common\TokenType.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common\typedefs.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common\utils.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Lexer\ExpectCharError.h">
+      <Filter>Header Files\Lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Lexer\IllegalCharError.h">
+      <Filter>Header Files\Lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Lexer\Lexer.h">
+      <Filter>Header Files\Lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Lexer\Token.h">
+      <Filter>Header Files\Lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Parser\Expr.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Parser\Parser.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Parser\ParsingError.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Parser\Stmt.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interpreter\Callable.h">
+      <Filter>Header Files\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interpreter\Class.h">
+      <Filter>Header Files\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interpreter\Container.h">
+      <Filter>Header Files\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interpreter\Context.h">
+      <Filter>Header Files\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interpreter\Function.h">
+      <Filter>Header Files\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interpreter\Interpreter.h">
+      <Filter>Header Files\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interpreter\KeyboardInterruption.h">
+      <Filter>Header Files\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interpreter\MetaList.h">
+      <Filter>Header Files\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interpreter\Module.h">
+      <Filter>Header Files\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interpreter\Object.h">
+      <Filter>Header Files\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interpreter\RuntimeError.h">
+      <Filter>Header Files\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interpreter\loxlib\NativeClass.h">
+      <Filter>Header Files\Interpreter\loxlib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Interpreter\loxlib\StandardFunctions.h">
+      <Filter>Header Files\Interpreter\loxlib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resolver\Resolver.h">
+      <Filter>Header Files\Resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resolver\ResolvingError.h">
+      <Filter>Header Files\Resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Cxx_Core_API.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Runner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\xmlTranspiler\Transpiler.h">
+      <Filter>Header Files\xmlTranspiler</Filter>
+    </ClInclude>
+    <ClInclude Include="include\xmlTranspiler\uuid.h">
+      <Filter>Header Files\xmlTranspiler</Filter>
+    </ClInclude>
+    <ClInclude Include="include\xmlTranspiler\Variable.h">
+      <Filter>Header Files\xmlTranspiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Common\Error.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\Position.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\TokenType.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\utils.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Runner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Lexer\ExpectCharError.cpp">
+      <Filter>Source Files\Lexer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Lexer\IllegalCharError.cpp">
+      <Filter>Source Files\Lexer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Lexer\Lexer.cpp">
+      <Filter>Source Files\Lexer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Lexer\Token.cpp">
+      <Filter>Source Files\Lexer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Parser\Expr.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Parser\Parser.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Parser\ParsingError.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Parser\Stmt.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Interpreter\loxlib\NativeClass.cpp">
+      <Filter>Source Files\Interpreter\loxlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Interpreter\loxlib\StandardFunctions.cpp">
+      <Filter>Source Files\Interpreter\loxlib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Interpreter\Class.cpp">
+      <Filter>Source Files\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Interpreter\Context.cpp">
+      <Filter>Source Files\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Interpreter\Function.cpp">
+      <Filter>Source Files\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Interpreter\Interpreter.cpp">
+      <Filter>Source Files\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Interpreter\KeyboardInterruption.cpp">
+      <Filter>Source Files\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Interpreter\MetaList.cpp">
+      <Filter>Source Files\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Interpreter\Module.cpp">
+      <Filter>Source Files\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Interpreter\Object.cpp">
+      <Filter>Source Files\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Interpreter\RuntimeError.cpp">
+      <Filter>Source Files\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resolver\Resolver.cpp">
+      <Filter>Source Files\Resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resolver\ResolvingError.cpp">
+      <Filter>Source Files\Resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xmlTranspiler\Transpiler.cpp">
+      <Filter>Source Files\xmlTranspiler</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
